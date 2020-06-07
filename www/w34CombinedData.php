@@ -44,6 +44,7 @@
 	$weather["dewpoint"]           = number_format($weewxrt[4],1);
 	$weather["rain_today"]         = $weewxrt[9];
 	$weather["rain_lasthour"]      = $weewxapi[47];
+	$weather["rain_last3hours"]    = $weewxapi[202];
 	$weather["rain_month"]         = $weewxapi[19];
 	$weather["rain_year"]          = $weewxapi[20];
 	$weather["rain_24hrs"]         = $weewxapi[44];
